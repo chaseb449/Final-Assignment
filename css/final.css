@@ -1,0 +1,145 @@
+/* all code for final project page */
+/* nav bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  overflow: hidden;
+  position: fixed;
+  top: 5;
+  width: 99%;
+}
+
+/* direction of nav */
+nav li {
+  border-right: 1px solid #731180;
+  display: inline;
+  float: left;
+}
+
+/* everything for the text of the nav */
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color : #222222;
+}
+
+nav li a:active {
+  color:white;
+}
+
+nav li a:visited {
+  color: white;
+}
+/* highlights the tab being hovered over */
+nav li a:hover {
+  background-color: #731180;
+}
+
+/* active tab */
+.active {
+  background-color: #A100B8;
+  color: white;
+}
+/*end nav bar*/
+
+/* sets the layout for the majority of the page */
+body {
+  background-color: #731180;
+  color: white;
+}
+
+/* images layout*/
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  height: 25%;
+  width: 40%;
+}
+
+/* formats all the text */
+h1, h2, h3, h4{
+  text-align: center;
+}
+
+/* used to indent certain text */
+.indent{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+/* sets color of all headers to this */
+h1, h2, h3, h4 {
+  color: white;
+}
+
+/* link colors */
+a:link {
+  color: #878787;
+}
+
+a:visited {
+  color: #F5ACFF;
+}
+
+a:active {
+  color: black;
+}
+
+/* line break color */
+hr{
+  border: 2px solid black;
+  border-radius: 1px;
+}
+
+/* used to align certain text to the left */
+.left{
+  text-align: left;
+  padding-left: 50px;
+}
+
+/* certain text to the right */
+.right{
+  padding-right: 50px;
+}
+/*layout of table */
+table{
+  width: 75%;
+}
+
+td, th{
+  border: 2px solid black;
+  text-align: center;
+}
+
+th{
+  background-color: #CA2DD4;
+}
+
+td{
+  background-color: #9B05A4;
+}
+
+/*Side by side images*/
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* left indent mainly used for resume */
